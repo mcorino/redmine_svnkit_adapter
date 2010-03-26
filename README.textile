@@ -17,10 +17,12 @@ General instructions can be found in the Redmine online documentation
 (http://www.redmine.org/wiki/redmine/Plugins).
 Additionally you need to copy the following JAR files from the SVNKit 
 distribution to the ./lib folder in the plugin directory
-(usually <Redmine_Root>/vendor/redmine_svnkit) :
+(usually $REDMINE_ROOT/vendor/redmine_svnkit) :
 * svnkit.jar
 * trilead.jar
 * [jna.jar] (optionally; see SVNKit documentation for more info)
+
+The adapter has been tested with Redmine >= 0.9 and SVNKit 1.3.2.
 
 h2. Usage
 
