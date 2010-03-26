@@ -17,7 +17,7 @@ General instructions can be found in the Redmine online documentation
 (http://www.redmine.org/wiki/redmine/Plugins).
 Additionally you need to copy the following JAR files from the SVNKit 
 distribution to the ./lib folder in the plugin directory
-(usually $REDMINE_ROOT/vendor/redmine_svnkit) :
+(usually $REDMINE_ROOT/vendor/plugins/redmine_svnkit) :
 * svnkit.jar
 * trilead.jar
 * [jna.jar] (optionally; see SVNKit documentation for more info)
