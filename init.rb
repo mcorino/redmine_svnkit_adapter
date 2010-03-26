@@ -31,9 +31,9 @@ Redmine::Plugin.register :redmine_svnkit do
   name 'Svnkit'
   author 'Martin Corino'
   description 'Use svnkit as backend to access Subversion repositories'
-  url ''
+  url 'http://github.com/mcorino/redmine_svnkit_adapter'
   author_url 'http://www.remedy.nl'
-  version '0.0.1'
+  version '0.1.0'
 
   requires_redmine :version_or_higher => '0.9.0'
 end
