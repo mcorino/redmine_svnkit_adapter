@@ -24,6 +24,7 @@ distribution to the ./lib folder in the plugin directory
 
 The adapter has been tested with Redmine >= 0.9 and SVNKit 1.3.2.
 
+
 h2. Usage
 
 Once the plugin is installed, all subversion repositories are accessed
